@@ -2,7 +2,8 @@ import axios from "axios";
 
 // ✅ Base API
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+   baseURL:"https://task-manager-500v.onrender.com",
+ // baseURL: "http://localhost:5000/api",
 });
 
 // ✅ Token automatically attach karega
